@@ -10,7 +10,7 @@ namespace 聚赚派
 {
     public class Function
     {
-        public void RandomCode()
+        public Image RandomCode()
         {
             string[] CharString = { "a", "b", "c", "d", "e", "f", "g", "h", 
                                       "i", "j", "k", "m", "n", "p", "q", 
@@ -78,7 +78,7 @@ namespace 聚赚派
             
             g.Dispose();
 
-
+            return CodeImg;
 
         }
 
