@@ -1,0 +1,194 @@
+﻿body
+{
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+div#topbar
+{
+    display: block;
+    font-family: 宋体;
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 26px;
+    border-bottom: 1px Solid #DCDCDC;
+    padding:0;
+    margin:0;
+    
+}
+
+.topguide
+{
+    
+    width: 980px;
+    margin: 0 auto;
+    height: 26px;
+}
+
+.toplink
+{
+    width: auto;
+    color: #666666;
+    font-size: 12px;
+    float:left;
+    height: 14px;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.toplink:hover
+{
+    text-decoration: underline;
+}
+
+.topmenu
+{
+    width: auto;
+    color: #666666;
+    font-size: 12px;
+    float:right;
+    height: 14px;
+    vertical-align: middle;
+    padding: 6px;
+    
+}
+
+.topmenu a
+{
+    color: #666666;
+    text-decoration: none;
+}
+
+.topmenu a:hover
+{
+    text-decoration: underline;
+}
+
+div#header
+{
+    width: 100%;
+    height: 80px;
+    
+}
+
+div.headerrect
+{
+    width: 980px;
+    margin: 0 auto;
+}
+
+div.logo
+{
+    background-image:url(/Images/Logo.png);
+    width:120px;
+    height:55px; 
+    float: left; 
+    margin:10px 0 10px 0; 
+    
+}
+
+.menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 75px;
+}
+
+.menu li
+{
+    float: right;
+    width: 90px;
+    height: 45px;
+    margin: 15px 0px 15px 40px;
+}
+
+.menu-item
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    height: 45px;
+}
+
+a#home.menu-item:hover
+{
+    background-image: url(/Images/home_light.png);
+}
+
+a#home.menu-item
+{
+    background-image: url(/Images/home_norml.png);
+}
+
+a#dm.menu-item
+{
+    background-image: url(/Images/dm_norml.png);
+}
+
+a#dm.menu-item:hover
+{
+    background-image: url(/Images/dm_light.png);
+}
+
+a#gw.menu-item
+{
+    background-image: url(/Images/gw_norml.png);
+}
+
+a#gw.menu-item:hover
+{
+    background-image: url(/Images/gw_light.png);
+}
+
+a#gj.menu-item
+{
+    background-image: url(/Images/gj_norml.png);
+}
+
+a#gj.menu-item:hover
+{
+    background-image: url(/Images/gj_light.png);
+}
+
+a#about.menu-item
+{
+    background-image: url(/Images/about_norml.png);
+}
+
+a#about.menu-item:hover
+{
+    background-image: url(/Images/about_light.png);
+}
+
+div#page
+{
+    width: 100%;
+}
+
+div#main
+{
+    margin-left: auto; margin-right: auto; width: 980px;padding :6px 0 6px 0;
+}
+
+div#footer
+{
+ width:100%;
+ margin:0;    
+ padding:0;
+ background-color:#F6F6F6;
+ border-top: 1px Solid Silver;
+}
+div.R-footer
+{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 980px;
+    height:80px;
+     line-height:80px;
+     
+     color:#666666;
+}

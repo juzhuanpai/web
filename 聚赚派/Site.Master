@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="聚赚派.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>聚赚派</title>
+    <link rel="stylesheet" href="~/Style/Site.css" type="text/css" />
+</head>
+<body>
+    <form id="form" runat="server">
+    <div id="topbar" style="display: block">
+        <div class="topguide">
+            <a class="toplink" href="Home.aspx">聚赚派</a>
+            <div class="topmenu">
+                <a href="#">登陆</a> - <a href="#">注册</a> | <a href="#">我的聚赚派</a>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div class="headerrect">
+            <div class="logo">
+            </div>
+            <div style="height: 75px">
+                <ul class="menu">
+                    <li><a class="menu-item" id="about" href="About.aspx"></a></li>
+                    <li><a class="menu-item" id="gw" href="#"></a></li>
+                    <li><a class="menu-item" id="gj" href="#"></a></li>
+                    <li><a class="menu-item" id="dm" href="#"></a></li>
+                    <li><a class="menu-item" id="home" href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="page">
+        <div id="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div id="footer" style=" position:absolute;">
+        <div class="R-footer">
+            © 2014 聚赚派
+        </div>
+    </div>
+    </form>
+</body>
+</html>
